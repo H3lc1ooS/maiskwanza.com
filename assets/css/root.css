@@ -1,0 +1,39 @@
+:root{
+    /* COLOURS */
+    primary-color: #F2055D;
+    black-color: #000000;
+    dark-color: #121212;
+    white-color: #FFFFFF;
+    light-color: ECECEC;
+    gray-color: #929292;
+
+    /* Size */
+    big-sz: 3.4rem;
+    mid-sz: 2.4rem;
+    smal-sz: 1.6rem;
+    vsmal-sz: 1.2rem;
+}
+
+.container{
+    width: 100%;
+    padding: 5rem
+}
+
+/* FlexBox */
+
+.flex{
+    display: flex;
+}
+
+.col{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.center{
+    justify-content: center;
+    align-items: center;
+}
