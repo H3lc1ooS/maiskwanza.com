@@ -4,7 +4,7 @@
     --black-color: #000000;
     --dark-color: #121212;
     --white-color: #FFFFFF;
-    --light-color: ECECEC;
+    --light-color: #ececec2f;
     --gray-color: #929292;
 
     /* Size */
@@ -30,6 +30,22 @@
 }
 
 /* Fonts */
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1rem;
+}
+
+p{
+    font-size: 1rem;
+}
+
 .normal-font {
     font-weight: var(--normal-font);
 }

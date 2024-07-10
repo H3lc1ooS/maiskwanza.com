@@ -41,3 +41,17 @@ header .menu-desktop ul{
     padding: var(--button-p);
     border-radius: var(--button-radius);
 }
+
+main{
+    background-color: var(--dark-color);
+}
+
+/* PRODCAST CARDS */
+.Card-Area{
+    width: 100%;
+    margin: var(--mid-sz) 0;
+}
+
+.Podcast-Card:nth-child(1){
+    background-image: url('/assets/img/PodCastSection/p1.png');
+}
