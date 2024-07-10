@@ -4,7 +4,7 @@
     --black-color: #000000;
     --dark-color: #121212;
     --white-color: #FFFFFF;
-    --light-color: ECECEC;
+    --light-color: #ECECEC;
     --gray-color: #929292;
 
     /* Size */
@@ -38,10 +38,6 @@
     height: 100%;
 }
 
-.f-width{
-    width: 100%;
-}
-
 /* Fonts */
 .normal-font {
     font-weight: var(--normal-font);
@@ -71,18 +67,14 @@
     align-items: center;
 }
 
-.a-center {
+.a-center{
     align-items: center;
 }
 
-.j-center {
-    justify-content: center;
-}
-
-.j-between {
+.j-between{
     justify-content: space-between;
 }
 
-.j-around {
+.j-around{
     justify-content: space-around;
 }
