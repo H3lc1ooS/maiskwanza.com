@@ -1,4 +1,4 @@
-:root{
+:root {
     /* COLOURS */
     --primary-color: #F2055D;
     --black-color: #000000;
@@ -8,33 +8,52 @@
     --gray-color: #929292;
 
     /* Size */
+
     --big-sz: 3.4rem;
     --mid-sz: 2.4rem;
-    --smal-sz: 1.6rem;
-    --vsmal-sz: 1.2rem;
+    --small-sz: 1.6rem;
+    --vsmall-sz: 1.2rem;
+
+    /* Fonts */
+    --normal-font: 500;
+
+    /* Paddings */
+    --button-p: 0.7rem 1rem;
+
+    /* Borders */
+    --button-radius: 0.3rem;
 }
 
-.container{
+.container {
     width: 100%;
     padding: 5rem;
+}
+
+/* Fonts */
+.normal-font {
+    font-weight: var(--normal-font);
+}
+
+.small-sz {
+    font-size: var(--small-sz);
 }
 
 
 /* FlexBox */
 
-.flex{
+.flex {
     display: flex;
 }
 
-.col{
+.col {
     flex-direction: column;
 }
 
-.row{
+.row {
     flex-direction: row;
 }
 
-.center{
+.f-center {
     justify-content: center;
     align-items: center;
 }
