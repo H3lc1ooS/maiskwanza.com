@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 
 <head>
     <meta charset="UTF-8">
@@ -11,7 +11,9 @@
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- Icons -->
 
     <!-- Style -->
@@ -23,42 +25,88 @@
 <body>
 
     <!-- Header -->
-    <header class="flex a-center j-between">
-        <section class="logo">
-            <img width="" height="" src="./assets/img/logo.svg" alt="Logo do + Kwanza">
+    <header class="flex a-center j-between normal-font small-sz">
+        <section class="logo-container">
+            <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
         </section>
 
         <!-- Destop Navgation -->
-        <section class="hide-mobile flex row j-around a-center desktop-navegation">
-            <nav class="menu-desktop">
-                <ul class="flex row">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Podcast</a></li>
-                    <li><a href="">Sobre nós</a></li>
-                    <li><a href="">Contactos</a></li>
-                </ul>
-            </nav>
-        </section>
+        <nav class="menu-desktop hide-mobile flex row j-around a-center">
+
+            <ul class="flex row">
+                <li><a href="" class="nav-link">Home</a></li>
+                <li><a href="" class="nav-link">Podcast</a></li>
+                <li><a href="" class="nav-link">Sobre nós</a></li>
+                <li><a href="" class="nav-link">Contactos</a></li>
+            </ul>
+
+        </nav>
 
         <!-- Mobile Navgation -->
         <section class="hide-desktop">
 
         </section>
+
         <a href="" class="newsletter-button">Newsletter</a>
 
     </header>
 
     <!-- Main Content -->
-     <main class="container">
+    <main class="container">
 
-     </main>
+        <!-- Hero Section -->
+        <section class="hero flex j-between f-center f-width">
+            <section class="hero-text">
+                <h1>Informação de qualidade, relevância e valor para o público angolano. Inscreva-se no Youtube.</h1>
+                <a href="" class="newsletter-button">Inscrever-se</a>
+            </section>
 
-     <!-- Footer -->
-     <footer>
-        
-     </footer>
+            <section class="qr-container over-hidden">
+                <img src="/assets/img/QR code.png" alt="qr" class="full">
+            </section>
+        </section>
 
-     <!-- Script -->
-      <script src="/assets/js/index.js"></script>
+        <!-- PodCasts -->
+        <section class="Podcasts content">
+            <section class="title">
+                <h1>Podcasts</h1>
+                <h2>Últimos PodCasts</h2>
+            </section>
+            <section class="Card-Area flex f-center j-between">
+                <a href="" class="Podcast-Card sm-Card">
+                    <section class="description">
+                        <h1>Como funcionam...</h1>
+                        <h2>Com: Cristina Silvestre</h2>
+                    </section>
+                </a>
+                <a href="" class="Podcast-Card sm-Card">
+                    <section class="description">
+                        <h1>Como funcionam...</h1>
+                        <h2>Com: Cristina Silvestre</h2>
+                    </section>
+                </a>
+                <a href="" class="Podcast-Card sm-Card">
+                    <section class="description">
+                        <h1>Como funcionam...</h1>
+                        <h2>Com: Cristina Silvestre</h2>
+                    </section>
+                </a>
+                <a href="" class="Podcast-Card sm-Card">
+                    <section class="description">
+                        <h1>Como funcionam...</h1>
+                        <h2>Com: Cristina Silvestre</h2>
+                    </section>
+                </a>
+            </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+
+    </footer>
+
+    <!-- Script -->
+    <script src="/assets/js/index.js"></script>
 </body>
+
 </html>
