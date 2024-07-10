@@ -24,11 +24,11 @@ header{
     width: 80%;
 }
 
-header .nav-link, header .newsletter-button{
+header .nav-link, .newsletter-button{
     color: var(--white-color);
 }
 
-header .desktop-navegation{
+.menu-desktop{
     width: 60%;
 }
 
@@ -40,4 +40,26 @@ header .menu-desktop ul{
     background: var(--primary-color);
     padding: var(--button-p);
     border-radius: var(--button-radius);
+}
+
+.hero{
+    background: url(/assets/img/primary.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0 5rem;
+    color: white;
+}
+
+.hero-text{
+    font-size: var(--mid-sz);
+    line-height: 5.48rem;
+    font-weight: 600;
+    width: 40%;
+}
+
+.qr-container{
+    border-radius: var(--button-radius);
+    height: 35rem;
+    width: 35rem;
 }
