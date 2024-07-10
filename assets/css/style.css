@@ -2,9 +2,36 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Montserrant';
+    font-family: 'Montserrat';
+    list-style: none;
 }
-
 html{
     font-size: 60.3%;
+}
+header{
+    background:  var(--dark-color);
+    padding: var(--smal-sz) 5rem;
+    font-size: var(--smal-sz);
+    font-weight: 500;
+}
+header .logo{
+    width: 10%;
+}
+header .logo img{
+    width: 80%;
+}
+header a{
+    color: #fff;
+    text-decoration: none;
+}
+header .desktop-navegation{
+    width: 60%;
+}
+header .menu-desktop ul{
+    gap: var(--mid-sz);
+}
+.newsletter-button{
+    background: #F2055D;
+    padding: 0.7rem 1rem;
+    border-radius: 0.3rem;
 }
