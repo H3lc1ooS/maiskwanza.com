@@ -24,11 +24,11 @@ header{
     width: 80%;
 }
 
-header .nav-link, header .newsletter-button{
+header .nav-link, .newsletter-button{
     color: var(--white-color);
 }
 
-header .desktop-navegation{
+.menu-desktop{
     width: 60%;
 }
 
@@ -46,6 +46,30 @@ main{
     background-color: var(--dark-color);
 }
 
+/* Hero Section */
+.hero{
+    background: url(/assets/img/primary.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0 5rem;
+    color: white;
+}
+
+.hero-text{
+    font-size: var(--mid-sz);
+    line-height: 5.48rem;
+    font-weight: 600;
+    width: 40%;
+}
+
+.qr-container{
+    border-radius: var(--button-radius);
+    height: 35rem;
+    width: 35rem;
+}
+
+
 /* PRODCAST CARDS */
 .Card-Area{
     width: 100%;
@@ -54,4 +78,16 @@ main{
 
 .Podcast-Card:nth-child(1){
     background-image: url('/assets/img/PodCastSection/p1.png');
+}
+
+.Podcast-Card:nth-child(2){
+    background-image: url('/assets/img/PodCastSection/p2.png');
+}
+
+.Podcast-Card:nth-child(3){
+    background-image: url('/assets/img/PodCastSection/p3.png');
+}
+
+.Podcast-Card:nth-child(4){
+    background-image: url('/assets/img/PodCastSection/p4.png');
 }
