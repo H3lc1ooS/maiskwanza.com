@@ -99,3 +99,6 @@ p{
 .j-around{
     justify-content: space-around;
 }
+.t-center{
+    text-align: center;
+}

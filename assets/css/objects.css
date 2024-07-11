@@ -15,4 +15,12 @@
     padding: var(--small-sz);
     border-radius: 1rem;
     border: solid 1px var(--light-color);
+    background-size: cover;
+    background-position: center;
+}
+.social-link-card{
+    padding: var(--button-p);
+    border: solid 1px var(--white-color);
+    border-radius: 0.4rem;
+    color: var(--white-color);
 }
