@@ -118,6 +118,9 @@ main{
 .social-links{
     gap: var(--mid-sz);
 }
+.icon{
+    width: var(--mid-sz);
+}
 
 .host-card:nth-child(1){
     background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/nuno_baio.JPG);
@@ -127,7 +130,33 @@ main{
     background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/vaneza_von-haffe.JPG);
 }
 .Podcast-hosts{
+    height: 30%;
     width: 70%;
     position: absolute;
     bottom: 5rem;
+}
+
+/* NEWSLETTER */
+.newsletter{
+    margin: 6rem 0 0 0;
+}
+.newsletter-card-area{
+    padding: 2rem 0;
+    gap: 3rem;
+}
+.newsletter-card:nth-child(1){
+    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/primary.png);
+}
+.newsletter-card:nth-child(2){
+    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/micro.jpg);
+}
+.assunto{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    color: var(--black-color);
+    background: var(--cian-color);
+    padding: var(--button-p);
+    border-radius: var(--button-radius);
+    font-weight: var(--normal-font);
 }
