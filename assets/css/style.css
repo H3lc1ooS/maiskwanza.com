@@ -91,3 +91,43 @@ main{
 .Podcast-Card:nth-child(4){
     background-image: url('/assets/img/PodCastSection/p4.png');
 }
+
+/* SOBRE NÓS */
+
+.sobrenos{
+    position: relative;
+    height: 110vh;
+}
+
+.Podcast-info{
+    height: 60%;
+    background-image: linear-gradient( #0b0b0bcc, #0606068b), url(/assets/img/micro.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 5rem;
+    gap: var(--mid-sz);
+}
+
+.text-sobrenos{
+    color: var(--white-color);
+    font-weight: var(--normal-font);
+    font-size: var(--mid-sz);
+    width: 40%;
+}
+
+.social-links{
+    gap: var(--mid-sz);
+}
+
+.host-card:nth-child(1){
+    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/nuno_baio.JPG);
+}
+
+.host-card:nth-child(2){
+    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/vaneza_von-haffe.JPG);
+}
+.Podcast-hosts{
+    width: 70%;
+    position: absolute;
+    bottom: 5rem;
+}
