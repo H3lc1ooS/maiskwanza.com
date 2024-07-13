@@ -18,9 +18,26 @@
     background-size: cover;
     background-position: center;
 }
+
 .social-link-card{
     padding: var(--button-p);
     border: solid 1px var(--white-color);
-    border-radius: 0.4rem;
+    border-radius: var(--button-radius);
     color: var(--white-color);
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.newsletter-card{
+    position: relative;
+    width: 71rem;
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 1rem;
+    display: flex;
+    align-items: end;
+    color: var(--white-color);
+    padding: var(--small-sz);
 }
