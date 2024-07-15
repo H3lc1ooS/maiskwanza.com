@@ -52,17 +52,18 @@ main{
     background-size: cover;
     background-position: center;
     height: 100vh;
-    padding: 0 5rem;
+    padding: 0 10rem;
     color: white;
 }
 
 .hero-text{
-    font-size: var(--mid-sz);
+    width: 50%;
+}
+.hero-text h1{
+    font-size: 4rem;
     line-height: 5.48rem;
     font-weight: 600;
-    width: 40%;
 }
-
 .qr-container{
     border-radius: var(--button-radius);
     height: 35rem;
@@ -143,6 +144,7 @@ main{
 .newsletter-card-area{
     padding: 2rem 0;
     gap: 3rem;
+    width: 100%;
 }
 .newsletter-card:nth-child(1){
     background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/primary.png);
@@ -159,4 +161,45 @@ main{
     padding: var(--button-p);
     border-radius: var(--button-radius);
     font-weight: var(--normal-font);
+}
+/*Contactos*/
+.contacts-area{
+    margin: 3rem 0 0 0
+}
+.contacts-links{
+    gap: 1rem;
+}
+.contact-logo{
+    width: 25%;
+}
+
+/* Footer */
+
+footer{
+    background: var(--black-color);
+    color: var(--white-color);
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+footer p{
+    font-size: var(--small-sz);
+}
+footer a{
+    color: var(--white-color);
+}
+footer ul{
+    gap:0.5rem;
+}
+.newsletter-sub-form input{
+    padding: 1rem 2rem;
+    border-radius: var(--button-radius);
+}
+.newsletter-sub-form button{
+    border: none;
+    border-radius: var(--button-radius);
+    padding: 1rem;
+    background: var(--primary-color);
+}
+.newsletter-sub-form button img{
+    width: 1.7rem;
 }
