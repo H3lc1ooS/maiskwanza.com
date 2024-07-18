@@ -30,7 +30,9 @@
         <!-- Header -->
         <header class="flex a-center j-between normal-font small-sz">
             <section class="logo-container">
-                <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
+                <a href="">
+                    <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">   
+                </a>
             </section>
 
             <!-- Destop Navgation -->
@@ -109,18 +111,18 @@
                     </section>
                     <p class="text-sobrenos">Where can I get some?
                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </p>
-                    <section class="social-links flex row">
+                    <section class="social-links flex row ">
                         <a href="https://www.youtube.com/@maiskwanza" class="social-link-card">
                             <img src="./assets/img/icon/logo-youtube.svg" alt="" class="icon">
-                            <h1>Youtube</h1>
+                            <h2 class="hide-mobile">Youtube</h2>
                         </a>
                         <a href="" class="social-link-card">
                             <img src="./assets/img/icon/logo-instagram.svg" alt="" class="icon">
-                            <h1>Instagram </h1>
+                            <h2 class="hide-mobile">Instagram </h2>
                         </a>
                         <a href="" class="social-link-card">
                             <img src="./assets/img/icon/logo-spotify.svg" alt="" class="icon">
-                            <h1>Spotify</h1>
+                            <h2 class="hide-mobile">Spotify</h2>
                         </a>
                     </section>
                     <a href="" class="newsletter-button">
@@ -199,7 +201,7 @@
 
         <!-- Footer -->
         <footer class="flex col content">
-            <section class="flex row j-around a-center">
+            <section class="footer-element flex row j-around a-center">
                 <section class="logo-container">
                     <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
                 </section>

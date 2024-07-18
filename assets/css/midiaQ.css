@@ -1,56 +1,159 @@
 /* Desktop */
-@media screen and (min-width: 601px){
+@media screen and (min-width: 601px) {
     .hide-desktop {
         display: none;
         overflow: hidden;
     }
 }
 
-/* Mobile */
-@media screen and (max-width: 600px){
+
+
+/* Tablet */
+@media screen and (max-width: 768px) {
     .hide-mobile {
         display: none;
         overflow: hidden;
     }
 
-    header{
-        background:  var(--black-color);
+    .hide-desktop {
+        display: flex;
+        /* overflow: hidden; */
+    }
+
+    header {
+        background: var(--black-color);
         padding: var(--small-sz) 2rem;
     }
 
-    .content{
+    .content {
         padding: 3rem
     }
 
-    .logo-container{
-        width: 30%;
+    .logo-container {
+        width: 20%;
     }
 
-    .icon{
+    .icon {
         width: 3rem;
     }
 
-    .icon-menu{
+    .icon-menu {
         width: 3.5rem;
-    }
+    }   
 
     /* Hero */
-    .hero{
+    .hero {
         background-position: center;
         height: 100vh;
         padding: 0 3rem;
         color: white;
     }
 
-    .hero-text{
+    .hero-text {
         width: 80%;
         height: 100%;
     }
 
-    .hero-text .text h1{
+    .hero-text .text h1 {
         font-size: 3rem;
         line-height: 3rem;
         font-weight: 600;
     }
+
+    /* About */
+    .text-sobrenos {
+        color: var(--white-color);
+        font-weight: var(--normal-font);
+        font-size: 1.5rem;
+        width: 80%;
+    }
+
+    .Podcast-hosts{
+        width: 90%;
+        position: absolute;
+        bottom: 5rem;
+    }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+    .hide-mobile {
+        display: none;
+        overflow: hidden;
+    }
+
+    header {
+        background: var(--black-color);
+        padding: var(--small-sz) 2rem;
+    }
+
+    .content {
+        padding: 3rem
+    }
+
+    .logo-container {
+        width: 30%;
+    }
+
+    .icon {
+        width: 3rem;
+    }
+
+    .icon-menu {
+        width: 3.5rem;
+    }
+
+    /* Hero */
+    .hero {
+        background-position: center;
+        height: 100vh;
+        padding: 0 3rem;
+        color: white;
+    }
+
+    .hero-text {
+        width: 80%;
+        height: 100%;
+    }
+
+    .hero-text .text h1 {
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 600;
+    }
+
+    .footer-element {
+        flex-direction: column;
+    }
+
+    /* Sobre */
+    .text-sobrenos {
+        color: var(--white-color);
+        font-weight: var(--normal-font);
+        font-size: 1.5rem;
+        width: 90%;
+    }
+
+    .sobrenos{
+        position: relative;
+        /* height: 125vh; */
+    }
+
+    .Podcast-info{
+        padding: 5rem;
+        gap: var(--mid-sz);
+    }
+
+    .Podcast-hosts{
+        width: 80%;
+        position: absolute;
+        flex-direction: column;
+        gap: var(--mid-sz);
+        bottom: 0rem;
+    }
     
+    .hosts-card{
+        
+    }
+
 }
