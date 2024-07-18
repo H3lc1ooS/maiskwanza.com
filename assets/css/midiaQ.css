@@ -36,6 +36,7 @@
 
     /* Hero */
     .hero{
+        display: flex;
         background-position: center;
         height: 100vh;
         padding: 0 3rem;
@@ -52,5 +53,9 @@
         line-height: 3rem;
         font-weight: 600;
     }
-    
+
+    .footer-container{
+        flex-direction: column;
+        justify-content: left;
+    }
 }

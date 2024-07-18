@@ -199,7 +199,7 @@
 
         <!-- Footer -->
         <footer class="flex col content">
-            <section class="flex row j-around a-center">
+            <section class="footer-container flex row j-around a-center">
                 <section class="logo-container">
                     <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
                 </section>
