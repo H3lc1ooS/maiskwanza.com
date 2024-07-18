@@ -12,4 +12,45 @@
         display: none;
         overflow: hidden;
     }
+
+    header{
+        background:  var(--black-color);
+        padding: var(--small-sz) 2rem;
+    }
+
+    .content{
+        padding: 3rem
+    }
+
+    .logo-container{
+        width: 30%;
+    }
+
+    .icon{
+        width: 3rem;
+    }
+
+    .icon-menu{
+        width: 3.5rem;
+    }
+
+    /* Hero */
+    .hero{
+        background-position: center;
+        height: 100vh;
+        padding: 0 3rem;
+        color: white;
+    }
+
+    .hero-text{
+        width: 80%;
+        height: 100%;
+    }
+
+    .hero-text .text h1{
+        font-size: 3rem;
+        line-height: 3rem;
+        font-weight: 600;
+    }
+    
 }
