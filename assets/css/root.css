@@ -9,7 +9,6 @@
     --cian-color: #05f2db;
 
     /* Size */
-
     --big-sz: 3.4rem;
     --mid-sz: 2.4rem;
     --small-sz: 1.6rem;
@@ -17,12 +16,14 @@
 
     /* Fonts */
     --normal-font: 500;
+    --bold-font: 700;
 
     /* Paddings */
-    --button-p: 0.7rem 1rem;
+    --button-p: 1rem 1rem;
 
     /* Borders */
-    --button-radius: 1rem;
+    --button-radius: 0.5rem;
+
 }
 
 .container {
@@ -92,6 +93,10 @@ p{
 .a-center{
     align-items: center;
 }
+
+.j-center{
+    justify-content: center;
+}	
 
 .j-between{
     justify-content: space-between;

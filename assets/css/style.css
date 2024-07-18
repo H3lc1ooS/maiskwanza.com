@@ -8,12 +8,16 @@
 }
 
 html{
-    font-size: 60.3%;
+    font-size: 65.3%;
 }
 
 header{
-    background:  var(--dark-color);
+    background:  var(--black-color);
     padding: var(--small-sz) 5rem;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    justify-content: center;
 }
 
 .logo-container{
@@ -40,15 +44,56 @@ header .menu-desktop ul{
     background: var(--primary-color);
     padding: var(--button-p);
     border-radius: var(--button-radius);
+    font-size: var(--small-sz);
+    font-weight: var(--normal-font);
+    transition: all .1s ease-in-out;
+}
+
+.newsletter-button:hover{
+    background:#8a0032;
 }
 
 main{
     background-color: var(--dark-color);
 }
 
+/* Dropdown Menu Mobile */
+.dropdown-menu {
+    display: none;
+    overflow: hidden;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    background: #00000098;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1;
+    width: 100rem;
+}
+
+.dropdown-menu li {
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    display: block;
+    padding: 1rem 1.5rem;
+    text-decoration: none;
+    color: #ffff;
+}
+
+.dropdown-menu li a:hover {
+    background: var(--back-color);
+    animation: changeColor 6s linear infinite;
+    transition: all .1s ease-in-out;
+}
+
 /* Hero Section */
 .hero{
-    background: url(/assets/img/primary.png);
+    background: url('/assets/img/primary.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -58,12 +103,19 @@ main{
 
 .hero-text{
     width: 50%;
+    height: 100%;
 }
-.hero-text h1{
+
+.hero-text a{
+    margin-top: 2rem;
+}
+
+.hero-text .text h1{
     font-size: 4rem;
     line-height: 5.48rem;
     font-weight: 600;
 }
+
 .qr-container{
     border-radius: var(--button-radius);
     height: 35rem;
@@ -104,7 +156,7 @@ main{
 
 .Podcast-info{
     height: 60%;
-    background-image: linear-gradient( #0b0b0bcc, #0606068b), url(/assets/img/micro.jpg);
+    background-image: linear-gradient( #0b0b0bcc, #0606068b), url('/assets/img/micro.jpg');
     background-size: cover;
     background-position: center;
     padding: 5rem;
@@ -126,11 +178,11 @@ main{
 }
 
 .host-card:nth-child(1){
-    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/nuno_baio.JPG);
+    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url('/assets/img/primary.png');
 }
 
 .host-card:nth-child(2){
-    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url(/assets/img/vaneza_von-haffe.JPG);
+    background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url('/assets/img/vaneza_von-haffe.JPG');
 }
 .Podcast-hosts{
     height: 30%;
