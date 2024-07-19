@@ -11,6 +11,10 @@ html{
     font-size: 65.3%;
 }
 
+body{
+    overflow-x: 11   11              hidden;
+}
+
 header{
     background:  var(--black-color);
     padding: var(--small-sz) 5rem;
@@ -112,8 +116,8 @@ main{
 }
 
 .hero-text .text h1{
-    font-size: 4rem;
-    line-height: 5.48rem;
+    font-size: 3em;
+    line-height: 1.3em;
     font-weight: 600;
 }
 
@@ -156,14 +160,13 @@ main{
 
 .sobrenos{
     position: relative;
-    height: 110vh;
+    height: 70rem;
 }
 
 .Podcast-info{
     height: 60%;
     background-image: linear-gradient( #0b0b0bcc, #0606068b), url('../img/micro.jpg');
     background-size: cover;
-    background-position: center;
     padding: 5rem;
     gap: var(--mid-sz);
 }
@@ -189,9 +192,10 @@ main{
 .host-card:nth-child(2){
     background-image: linear-gradient(180deg, #ffffff00 71%, #001012b0 99%), url('../img/vaneza_von-haffe.JPG');
 }
+
 .Podcast-hosts{
-    height: 30%;
-    width: 70%;
+    top: 55rem;
+    width: 80%;
     position: absolute;
     bottom: 5rem;
 }
