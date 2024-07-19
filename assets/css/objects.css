@@ -14,7 +14,7 @@
     height: 40rem;
     padding: var(--small-sz);
     border-radius: 1rem;
-    border: solid 1px var(--light-color);
+    border: solid 0.5px var(--white-color);
     background-size: cover;
     background-position: center;
 }

@@ -89,20 +89,22 @@
             <section class="Podcasts content">
                 <section class="title">
                     <h1>Podcasts</h1>
-                    <h2>Últimos PodCasts</h2>
+                    <h2>Últimos episódios</h2>
                 </section>
-                <section class="Card-Area flex f-center">
+                <section class="Card-Area flex">
                     <?php foreach ($videos['items'] as $video) : ?>
+                        <div>
                         <a href="<?php echo 'https://www.youtube.com/watch?v=' . $video['snippet']['resourceId']['videoId'] ?>" class="Podcast-Card" target="_blank">
                             <img src="<?php echo $video['snippet']['thumbnails']['standard']['url'] ?>" alt="" class="podcast-img">
                         </a>
+                        </div>
                     <?php endforeach; ?>
                 </section>
             </section>
 
             <!-- "Sobre nós"-->
 
-            <section class="sobrenos flex col a-center" id="about-us">
+            <section class="sobrenos flex col a-center" id="about_us">
                 <section class="Podcast-info flex a-center col t-center f-width">
                     <section class="logo-container">
                         <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
@@ -110,15 +112,15 @@
                     <p class="text-sobrenos">Where can I get some?
                         There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </p>
                     <section class="social-links flex row">
-                        <a href="https://www.youtube.com/@maiskwanza" class="social-link-card">
+                        <a href="https://www.youtube.com/@maiskwanza" class="social-link-card" target="_blank">
                             <img src="./assets/img/icon/logo-youtube.svg" alt="" class="icon">
                             <h1>Youtube</h1>
                         </a>
-                        <a href="" class="social-link-card">
+                        <a href="https://www.instagram.com/mais_kwanza/" class="social-link-card" target="_blank">
                             <img src="./assets/img/icon/logo-instagram.svg" alt="" class="icon">
-                            <h1>Instagram </h1>
+                            <h1>Instagram</h1>
                         </a>
-                        <a href="" class="social-link-card">
+                        <a href="https://open.spotify.com/user/31uoo2l4ln3wtnaie3bsoetfm5hq?si=7cf32883TWikedHt4gnNoA" class="social-link-card" target="_blank">
                             <img src="./assets/img/icon/logo-spotify.svg" alt="" class="icon">
                             <h1>Spotify</h1>
                         </a>
@@ -128,13 +130,13 @@
                     </a>
                 </section>
                 <section class="Podcast-hosts flex j-around a-center ">
-                    <a href="" class="host-card sm-Card">
+                    <a href="https://www.instagram.com/nuno_baio/" class="host-card sm-Card" target="_blank">
                         <section class="description">
                             <h1>Nuno Baio</h1>
                             <h2>Host</h2>
                         </section>
                     </a>
-                    <a href="" class="host-card sm-Card">
+                    <a href="https://www.instagram.com/vaneza_vonhaffe/" class="host-card sm-Card" target="_blank">
                         <section class="description">
                             <h1>Vaneza Von-Haffe</h1>
                             <h2>Co-Host</h2>
@@ -178,15 +180,15 @@
                 </section>
                 <section class="contacts-area flex row j-between a-center ">
                     <section class="contacts-links flex col">
-                        <a href="https://www.youtube.com/@maiskwanza" class="social-link-card">
+                        <a href="https://www.youtube.com/@maiskwanza" class="social-link-card" target="_blank">
                             <img src="assets/img/icon/logo-youtube.svg" class="icon">
                             <h1>Youtube</h1>
                         </a>
-                        <a href="" class="social-link-card">
+                        <a href="https://www.instagram.com/mais_kwanza/" class="social-link-card" target="_blank">
                             <img src="assets/img/icon/logo-instagram.svg" class="icon">
                             <h1>Instagram</h1>
                         </a>
-                        <a href="" class="social-link-card">
+                        <a href="https://open.spotify.com/user/31uoo2l4ln3wtnaie3bsoetfm5hq?si=7cf32883TWikedHt4gnNoA" class="social-link-card" target="_blank">
                             <img src="assets/img/icon/logo-spotify.svg" class="icon">
                             <h1>Spotify</h1>
                         </a>

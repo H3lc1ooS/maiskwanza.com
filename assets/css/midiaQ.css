@@ -37,10 +37,14 @@
     /* Hero */
     .hero{
         display: flex;
+        flex-direction: column;
         background-position: center;
         height: 100vh;
-        padding: 0 3rem;
+        padding: 2rem 0;
         color: white;
+        justify-content: center;
+        align-items: center;
+
     }
 
     .hero-text{
@@ -49,13 +53,75 @@
     }
 
     .hero-text .text h1{
-        font-size: 3rem;
+        font-size: 2rem;
         line-height: 3rem;
         font-weight: 600;
     }
+    .modal-container{
+        width: 80%;
+        height: 40rem;
+    }
+    .modal-container img{
+        width: 80%;
+    }
+    
+    /*Podcast cards*/
+    .Card-Area{
+      overflow-x: auto;
+      margin: 2rem 0;
+    }
+    .podcast-img{
+        width: 30rem;
+    }
+    .Card-Area::-webkit-scrollbar{
+        height: 2px;
+    }
+
+    /* SOBRE NOS */
+    .sobrenos{
+        height: 140vh;
+    }
+    .text-sobrenos{
+        font-size: var(--small-sz);
+        width: 90%;
+    }
+    .social-links img{
+        width: 2.5rem;
+    }
+    .social-links h1{
+        display: none;
+    }
+    .Podcast-hosts{
+        flex-direction: column;
+    }
+    .Podcast-hosts{
+        margin-top: 2rem;
+        gap: 2rem;
+        position: initial;
+        height: 110rem;
+    }
+    .host-card{
+        background-position: initial;
+    }
+    .sm-Card{
+        height: 30rem;
+    }
+    .newsletter-card-area{
+        flex-direction: column;
+    }
+    .newsletter-card{
+        width: 100%;
+        height: 25rem;
+    }
+    .newsletter-card h1{
+        font-size: var(--small-sz);
+    }
 
     .footer-container{
+        font-size: var(--small-sz);
         flex-direction: column;
         justify-content: left;
+        align-items: initial;
+        gap: 2rem;
     }
 }
