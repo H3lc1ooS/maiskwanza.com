@@ -108,3 +108,15 @@ p{
 .t-center{
     text-align: center;
 }
+
+::-webkit-scrollbar{
+    background-color: var(--black-color);
+    width: 3px;
+}
+::-webkit-scrollbar-thumb{
+    background: var(--primary-color);
+    border-radius: 12px;
+}
+.Card-Area::-webkit-scrollbar{
+    height: 2px;
+}
