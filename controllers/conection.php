@@ -16,7 +16,7 @@
 
     $playlistId = 'PLyE584xF0zBqOmEbe3DWzitbmbaFakmoW';
     
-    $videos = $service->playlistItems->listPlaylistItems('snippet', ['playlistId' => $playlistId, 'maxResults' => 3]);
+    $videos = $service->playlistItems->listPlaylistItems('snippet', ['playlistId' => $playlistId, 'maxResults' => 4]);
     
     /* 
         => Falta ordernar os vídeos por data 

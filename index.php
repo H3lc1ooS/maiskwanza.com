@@ -94,13 +94,15 @@
                     <h2>Últimos episódios</h2>
                 </section>
                 <section class="Card-Area flex">
-                    <?php foreach ($videos['items'] as $video) : ?>
-                        <div>
+                    <?php foreach ($videos['items'] as $video) : 
+                        if($video['snippet']['title'] != 'Private video'){
+                    ?>
+                        <section class="Podcast-Card">
                         <a href="<?php echo 'https://www.youtube.com/watch?v=' . $video['snippet']['resourceId']['videoId'] ?>" class="Podcast-Card" target="_blank">
                             <img src="<?php echo $video['snippet']['thumbnails']['standard']['url'] ?>" alt="" class="podcast-img">
                         </a>
-                        </div>
-                    <?php endforeach; ?>
+                        </section>
+                    <?php } endforeach; ?>
                 </section>
             </section>
 
