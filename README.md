@@ -6,7 +6,6 @@ Descriçã: WebSite para o podcast +Kwanza de Nuno Baio e Vaneza Von-Hoff.
 * Instalar o Composer <https://getcomposer.org/download/>
 
 * Instalar dependências:
-    - composer install
     - composer require google/apiclient
     - composer require symfony/var-dumper
 
