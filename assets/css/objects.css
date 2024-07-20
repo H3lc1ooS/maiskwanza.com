@@ -8,7 +8,7 @@
 /* Small Card */
 .sm-Card{
     display: flex;
-    align-items: end;
+    flex-direction: column-reverse;
     color: var(--white-color);
     width: 30rem;
     height: 40rem;
