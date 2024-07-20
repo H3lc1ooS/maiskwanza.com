@@ -17,7 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
     <!-- Icons -->
-
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
     <!-- Style -->
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/objects.css">
@@ -98,7 +98,7 @@
                     if ($video['snippet']['title'] != 'Private video') {
                 ?>
                         <section>
-                            <a href="<?php echo 'https://www.youtube.com/watch?v=' . $video['snippet']['resourceId']['videoId'] ?>" class="Podcast-Card" target="_blank">
+                            <a href="<?php echo 'https://www.youtube.com/watch?v=' . $video['snippet']['resourceId']['videoId'] ?>"  class="Podcast-Card" target="_blank">
                                 <img src="<?php echo $video['snippet']['thumbnails']['standard']['url'] ?>" alt="" class="podcast-img">
                             </a>
                         </section>
@@ -133,7 +133,7 @@
                         <h2 class="hide-mobile">Spotify</h2>
                     </a>
                 </section>
-                <a href="" class="newsletter-button">
+                <a href="./sobrenos.php" class="newsletter-button">
                     <h2>Saber mais</h2>
                 </a>
             </section>

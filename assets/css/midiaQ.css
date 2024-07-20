@@ -223,4 +223,9 @@
         align-items: initial;
         gap: 2rem;
     }
+    /*Página Sobre Nós*/
+
+    .info-container{
+        flex-direction: column;
+    } 
 }

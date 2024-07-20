@@ -151,10 +151,9 @@ main{
     border: solid 1px var(--light-color);
     overflow: hidden;
 }
-
 .podcast-img{
+    border-radius: 1rem;
     width: 100%;
-    height: 100%;
 }
 
 /* SOBRE NÓS */
@@ -272,3 +271,36 @@ footer ul{
 footer .copy{
     padding: var(--small-sz);
 }
+
+/*Página sobre nós*/
+
+.info-container, .contact-container{
+    height: auto;
+    color: var(--white-color);
+}
+.aboutustext p, .contact-container p{
+    font-size: var(--small-sz);
+    width: 90%;
+    line-height: 2.3rem;
+}
+.aboutustext h1{
+    margin: 2rem;
+
+}
+.hosts-card-area{
+    margin: 2rem 0;
+    gap: 2rem;
+}
+.hosts-card-area .host-card{
+    position: relative;
+}
+.host-social-links{
+    position: absolute;
+    bottom: 2rem;
+    right: 2rem;
+    gap: 1rem;
+}
+.host-social-links img{
+    width: 2rem;
+}
+
