@@ -102,6 +102,10 @@ p{
     justify-content: space-between;
 }
 
+.j-evenly{
+    justify-content: space-evenly;
+}
+
 .j-around{
     justify-content: space-around;
 }

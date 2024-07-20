@@ -208,10 +208,9 @@
     </main>
 
     <!-- Footer -->
-    <footer class="flex col content">
+    <footer class="flex col j-evenly ">
 
-        <section class="footer-container flex row j-around a-center">
-
+        <section class="footer-container flex row j-around content ">
             <section class="logo-container">
                 <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
             </section>
@@ -236,14 +235,14 @@
             <section class="newsletter-sub">
                 <h1>Newsletter</h1>
                 <p>Receba as noticias directo no seu email</p>
-                <form action="" class="newsletter-sub-form">
+                <form action="" class="newsletter-sub-form center">
                     <input type="email" placeholder="Seu email">
                     <button type="submit" class=""><img src="assets/img/icon/send.svg" alt="" srcset=""></button>
                 </form>
             </section>
         </section>
-        <section class="t-center">
-            <p>©+Kwanza All directs reserved</p>
+        <section class="copy t-center">
+            <p>©+Kwanza 2024, Todos os direitos reservados</p>
         </section>
     </footer>
 
