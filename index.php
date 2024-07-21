@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="./assets/css/objects.css">
     <link rel="stylesheet" href="./assets/css/root.css">
     <link rel="stylesheet" href="./assets/css/midiaQ.css">
+    <link rel="stylesheet" href="./assets/css/animations.css">
 </head>
 
 <body>
@@ -93,12 +94,12 @@
                 <h1>Podcasts</h1>
                 <h2>Últimos episódios</h2>
             </section>
-            <section class="Card-Area flex">
+            <section class="Card-Area flex scaleup">
                 <?php foreach ($videos['items'] as $video) :
                     if ($video['snippet']['title'] != 'Private video') {
                 ?>
                         <section>
-                            <a href="<?php echo 'https://www.youtube.com/watch?v=' . $video['snippet']['resourceId']['videoId'] ?>"  class="Podcast-Card" target="_blank">
+                            <a href="<?php echo 'https://www.youtube.com/watch?v=' . $video['snippet']['resourceId']['videoId'] ?>" class="Podcast-Card" target="_blank">
                                 <img src="<?php echo $video['snippet']['thumbnails']['standard']['url'] ?>" alt="" class="podcast-img">
                             </a>
                         </section>
@@ -111,33 +112,31 @@
 
         <section id="about" class="sobrenos flex col a-center" id="about_us">
             <section class="Podcast-info flex a-center col t-center f-width">
-                <section class="logo-container">
+                <section class="logo-container scaleup">
                     <img src="./assets/img/logo.svg" alt="Logo do +Kwanza" class="logo">
                 </section>
-                <p class="text-sobrenos">Where can I get some?
+                <p class="text-sobrenos scaleup">Where can I get some?
                     There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in </p>
 
-                <section class="social-links flex row">
-                    <a href="https://www.youtube.com/@maiskwanza" class="social-link-card" target="_blank">
-
+                <section class="social-links  flex row scaleup">
+                    <a href="https://www.youtube.com/@maiskwanza" class="social-link-card youtube" target="_blank">
                         <img src="./assets/img/icon/logo-youtube.svg" alt="" class="icon">
                         <h2 class="hide-mobile">Youtube</h2>
                     </a>
-                    <a href="https://www.instagram.com/mais_kwanza/" class="social-link-card" target="_blank">
+                    <a href="https://www.instagram.com/mais_kwanza/" class="social-link-card instagram" target="_blank">
                         <img src="./assets/img/icon/logo-instagram.svg" alt="" class="icon">
-
                         <h2 class="hide-mobile">Instagram </h2>
                     </a>
-                    <a href="https://open.spotify.com/user/31uoo2l4ln3wtnaie3bsoetfm5hq?si=7cf32883TWikedHt4gnNoA" class="social-link-card" target="_blank">
+                    <a href="https://open.spotify.com/user/31uoo2l4ln3wtnaie3bsoetfm5hq?si=7cf32883TWikedHt4gnNoA" class="social-link-card spotify" target="_blank">
                         <img src="./assets/img/icon/logo-spotify.svg" alt="" class="icon">
                         <h2 class="hide-mobile">Spotify</h2>
                     </a>
                 </section>
-                <a href="./sobrenos.php" class="newsletter-button">
+                <a href="./sobrenos.php" class="newsletter-button scaleup">
                     <h2>Saber mais</h2>
                 </a>
             </section>
-            <section class="Podcast-hosts flex j-around a-center ">
+            <section class="Podcast-hosts flex j-around a-center">
                 <a href="https://www.instagram.com/nuno_baio/" class="host-card sm-Card" target="_blank">
                     <section class="description">
                         <h1>Nuno Baio</h1>
@@ -159,7 +158,7 @@
                 <h1>Newsletter</h1>
                 <h2>Saiba o que está a acontecer no mundo dos negócios</h2>
             </section>
-            <section class="newsletter-card-area flex row">
+            <section class="newsletter-card-area flex row scaleup">
                 <a class="newsletter-card">
                     <h2 class="assunto">Economia</h2>
                     <section class="description">
@@ -175,7 +174,7 @@
                     </section>
                 </a>
             </section>
-            <a href="" class="newsletter-button">
+            <a href="" class="newsletter-button scaleup">
                 <h2>Ver mais</h2>
             </a>
         </section>
@@ -188,19 +187,18 @@
             </section>
             <section class="contacts-area flex row j-between a-center ">
                 <section class="contacts-links flex col">
-                    <a href="https://www.youtube.com/@maiskwanza" class="social-link-card" target="_blank">
-                        <img src="assets/img/icon/logo-youtube.svg" class="icon">
-                        <h1>Youtube</h1>
+                    <a href="https://www.youtube.com/@maiskwanza" class="social-link-card youtube" target="_blank">
+                        <img src="./assets/img/icon/logo-youtube.svg" alt="" class="icon">
+                        <h2 class="hide-mobile">Youtube</h2>
                     </a>
-                    <a href="https://www.instagram.com/mais_kwanza/" class="social-link-card" target="_blank">
-                        <img src="assets/img/icon/logo-instagram.svg" class="icon">
-                        <h1>Instagram</h1>
+                    <a href="https://www.instagram.com/mais_kwanza/" class="social-link-card instagram" target="_blank">
+                        <img src="./assets/img/icon/logo-instagram.svg" alt="" class="icon">
+                        <h2 class="hide-mobile">Instagram </h2>
                     </a>
-                    <a href="https://open.spotify.com/user/31uoo2l4ln3wtnaie3bsoetfm5hq?si=7cf32883TWikedHt4gnNoA" class="social-link-card" target="_blank">
-                        <img src="assets/img/icon/logo-spotify.svg" class="icon">
-                        <h1>Spotify</h1>
+                    <a href="https://open.spotify.com/user/31uoo2l4ln3wtnaie3bsoetfm5hq?si=7cf32883TWikedHt4gnNoA" class="social-link-card spotify" target="_blank">
+                        <img src="./assets/img/icon/logo-spotify.svg" alt="" class="icon">
+                        <h2 class="hide-mobile">Spotify</h2>
                     </a>
-
                 </section>
                 <img src="assets/img/logo.svg" alt="" srcset="" class="contact-logo">
             </section>

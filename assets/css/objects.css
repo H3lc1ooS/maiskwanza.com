@@ -20,14 +20,12 @@
 }
 
 .social-link-card{
-    padding: var(--button-p);
+    min-width: 10rem;
     border: solid 1px var(--white-color);
     border-radius: var(--button-radius);
     color: var(--white-color);
     display: flex;
-    justify-content: center;
     flex-direction: row;
-    gap: 1rem;
 }
 
 .newsletter-card{

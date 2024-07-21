@@ -1,0 +1,50 @@
+@keyframes scaleup {
+    0% {
+        opacity: 0;
+        scale: 0 0%;
+    }
+
+    60%{
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        translate: 1 100%;
+    }
+} 
+
+
+.scaleup{
+    animation: scaleup 1ms ease-in-out;
+    animation-timeline: view();
+    animation-range: cover 0% cover 30%;
+}
+
+.link:hover,
+.nav-link:hover{
+    transition: .3s ease-in-out;
+    color: var(--primary-color);
+}
+
+.social-link-card{
+    transition: .3s ease-in-out;
+    padding: 1rem;
+    min-width: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social-link-card.youtube:hover{
+    background-color: #bb0303;
+}
+
+.social-link-card.instagram:hover{
+    background: linear-gradient( #FF7A00, #FF0069, #D300C5);
+}
+
+.social-link-card.spotify:hover{
+    background-color: #009218;
+}

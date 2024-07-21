@@ -182,8 +182,10 @@ main{
 .social-links{
     gap: var(--mid-sz);
 }
+
 .icon{
     width: var(--mid-sz);
+    height: var(--mid-sz);
 }
 
 .host-card:nth-child(1){
