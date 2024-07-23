@@ -228,22 +228,4 @@
     .info-container{
         flex-direction: column;
     } 
-
-    /*Página de Newletter*/
-    .newsletter-container{
-        flex-direction: column;
-    }
-    .newsletter{
-        width: 100%;
-    }
-    .capa{
-        height: 25rem;
-    }
-    .capa .titulo h1{
-        font-size: 
-        var(--small-sz);
-    }
-    .newsletter-recomendation{
-        width: 100%;
-    }
 }

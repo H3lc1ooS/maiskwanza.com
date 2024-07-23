@@ -65,7 +65,7 @@
             </nav>
         </section>
 
-        <a href="./newsletter.php" class="hide-mobile newsletter-button">Newsletter</a>
+        <a href="" class="hide-mobile newsletter-button">Newsletter</a>
 
     </header>
 
@@ -153,7 +153,7 @@
         </section>
 
         <!-- Newsletter -->
-        <section class="newsletter-area content flex col a-center">
+        <section class="newsletter content flex col a-center">
             <section class="title">
                 <h1>Newsletter</h1>
                 <h2>Saiba o que está a acontecer no mundo dos negócios</h2>
@@ -174,7 +174,7 @@
                     </section>
                 </a>
             </section>
-            <a href="./newsletter.php" class="newsletter-button scaleup">
+            <a href="" class="newsletter-button scaleup">
                 <h2>Ver mais</h2>
             </a>
         </section>
