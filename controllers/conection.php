@@ -71,6 +71,3 @@ function showViews($videoId, $refArray){
         }
     }
 }
-
-// dump($videosStat);
-// dump($videos);
