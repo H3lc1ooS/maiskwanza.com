@@ -110,7 +110,7 @@ require_once __DIR__ . '/controllers/conection.php';
             </section>
 
             <section class="podcast-btn flex t-center f-center">
-                <a href="pages/podcast.html" class="newsletter-button">Mais vídeos</a>
+                <a href="pages/podcast.php" class="newsletter-button">Mais vídeos</a>
             </section>
         </section>
 
