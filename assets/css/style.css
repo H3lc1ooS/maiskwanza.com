@@ -13,6 +13,7 @@ html{
 
 body{
     overflow-x: 11   11              hidden;
+    position: relative;
 }
 
 header{
@@ -42,15 +43,6 @@ header .nav-link, .newsletter-button{
 
 header .menu-desktop ul{
     gap: var(--mid-sz);
-}
-
-.newsletter-button{
-    background: var(--primary-color);
-    padding: var(--button-p);
-    border-radius: var(--button-radius);
-    font-size: var(--small-sz);
-    font-weight: var(--normal-font);
-    transition: all .1s ease-in-out;
 }
 
 .newsletter-button:hover{
@@ -204,7 +196,7 @@ main{
 }
 
 /* NEWSLETTER */
-.newsletter{
+.newsletter-area{
     margin: 6rem 0 0 0;
 }
 .newsletter-card-area{
@@ -306,3 +298,162 @@ footer .copy{
     width: 2rem;
 }
 
+/*Página Newsletter*/
+
+.newsletter-hero{
+    padding: 5rem;
+    padding-top: 12rem;
+    padding-bottom: 0;
+    gap: 2rem;
+}
+.pesquisa-filtros-container{
+    font-size: var(--small-sz);
+    color: #929292;
+}
+.search-form{
+    border-bottom: 0.2rem solid var(--primary-color);
+    flex-direction: flex-end;
+}
+.search-form input[type="text"]{
+    padding: var(--button-p);
+    background: none;
+    border: none;
+    color: var(--white-color);
+    outline: none;
+    font-size: var(--small-sz);
+}
+
+.search-form button{
+    background: none;
+    border: none;
+}
+.search-form button img{
+    width: 2rem;
+}
+.filters{
+    gap: 2rem;
+    font-weight: 600;
+}
+.filters a{
+    color: #929292;
+}
+.filters .ative{
+    color: var(--primary-color);
+}
+.newsletter-container{
+    gap: 3rem;
+    color: var(--white-color);
+}
+.newsletter{
+    width: 70%;
+    gap: 3rem;
+}
+
+.capa{
+    height: 35rem;
+    overflow: hidden;
+    border-radius: var(--button-p);
+    position: relative;
+}
+.newsletter-background{
+    filter: brightness(0.7) contrast(0.9) saturate(0.9);
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    position: absolute;
+}
+.capa .data{
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.capa .assunto, .capa .titulo, .capa .data, .newsletter-recomendation-card .description{
+    z-index: 1000;
+}
+.newsletter-content p{
+    font-size: var(--small-sz);
+    line-height: 2.5rem;
+}
+.newsletter-content h2{
+    margin: 2rem;
+    font-size: var(--small-sz);
+}
+.newsletter-recomendation{
+    width: 30%;
+}
+.recomendation-card-area{
+    gap: 2rem;
+}
+.newsletter-recomendation-card .description h1{
+    font-size: var(--small-sz);
+}
+.newsletter-recomendation-card .description h2{
+    font-size: var(--vsmall-sz);
+}
+
+
+/*Página de podcasts*/
+
+.order-views-container{
+    padding: 2rem 0;
+}
+.order{
+    padding: 1rem 2rem;
+    background-color: var(--black-color);
+    border: none;
+    border-bottom: var(--primary-color) 0.2rem solid;
+    color: var(--white-color);
+    outline: none;
+}
+.views{
+    font-size: var(--mid-sz);
+    color: var(--white-color);
+    gap: 2rem;
+}
+.views .ative{
+    color: var(--primary-color);
+}
+.views a{
+    cursor: pointer;
+}
+.views a:hover{
+    color: var(--primary-color);
+    transition: 0.6s;
+}
+.view-item h1{ 
+    font-size: 1.5rem;
+}
+.grid-view .view-item h2{ 
+    font-size: 1rem;
+}
+.view-item p{
+    font-weight: 400;
+    font-size: var(--small-sz);
+    width: 80rem;
+    line-height: 2.6rem;
+}
+.grid-view .view-item p,.grid-view  .canallink{
+    display: none;
+}
+.canallink{
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: var(--small-sz);
+}
+.view-content{
+    gap: 1.5rem;
+}
+.play-icon{
+    position: absolute;
+    bottom: 2.5rem;
+    right: 2.5rem;
+}
+.play-icon img{
+    width: 4rem;
+}
+
+.grid-view{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
