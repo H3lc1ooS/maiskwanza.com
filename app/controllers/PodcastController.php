@@ -10,7 +10,7 @@ class PodcastController
 
     public function __construct()
     {
-        $apiKey = 'AIzaSyDdsPSiRYhiXVLBZytHhEaR7xnqcr03cgM';
+        $apiKey = '';
         $this->youtubeService = new YouTubeService($apiKey);
     }
 
