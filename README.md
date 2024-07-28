@@ -6,8 +6,10 @@ Descriçã: WebSite para o podcast +Kwanza de Nuno Baio e Vaneza Von-Hoff.
 * Instalar o Composer <https://getcomposer.org/download/>
 
 * Instalar dependências:
+    - composer init
     - composer require google/apiclient
     - composer require symfony/var-dumper
+    - composer require league/plates
 
 * Alterar o nome do ficheiro env-example.php para env.php
 

@@ -1,0 +1,163 @@
+:root {
+    /* COLOURS */
+    --primary-color: #F2055D;
+    --black-color: #000000;
+    --dark-color: #121212;
+    --white-color: #FFFFFF;
+    --text-white: #ffffff;
+    --light-color: #ececec;
+    --gray-color: #929292;
+    --cian-color: #05f2db;
+    --transparent-black: #0000004c;
+    --button-hover: #8a0032;
+
+    /* Size */
+    --big-sz: 3.4rem;
+    --mid-sz: 2.4rem;
+    --small-sz: 1.6rem;
+    --vsmall-sz: 1.2rem;
+
+    /* Fonts */
+    --normal-font: 500;
+    --bold-font: 700;
+
+    /* Paddings */
+    --button-p: 1rem 1rem;
+
+    /* Borders */
+    --button-radius: 0.5rem;
+
+}
+
+body{
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark-mode {
+    /* COLOURS */
+    --primary-color: #F2055D;
+    --black-color: #FFFFFF;
+    --dark-color: #ececec2f;
+    --white-color: #000000;
+    --text-white: #ffffff;
+    --light-color: #ececec2f;
+    --gray-color: #929292;
+    --cian-color: #05f2db;
+    --transparent-black: #EBEBEB;
+    --button-hover: #863f00;
+}
+
+
+.light-mode {
+    --primary-color: #F2055D;
+    --black-color: #ffffff;
+    --dark-color: #FCFEF4;
+    --white-color: #000;
+    --light-color: #ececec2f;
+    --gray-color: #929292;
+    --cian-color: #05f2db;
+    --transparent-black: #EBEBEB;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    padding: 5rem
+}
+
+.over-hidden {
+    overflow: hidden;
+}
+
+.full {
+    width: 100%;
+    height: 100%;
+}
+
+.f-width {
+    width: 100%;
+}
+
+/* Fonts */
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.normal-font {
+    font-weight: var(--normal-font);
+}
+
+.small-sz {
+    font-size: var(--small-sz);
+}
+
+/* FlexBox */
+
+.flex {
+    display: flex;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.f-center {
+    justify-content: center;
+    align-items: center;
+}
+
+.a-center {
+    align-items: center;
+}
+
+.j-center {
+    justify-content: center;
+}
+
+.j-between {
+    justify-content: space-between;
+}
+
+.j-evenly {
+    justify-content: space-evenly;
+}
+
+.j-around {
+    justify-content: space-around;
+}
+
+.t-center {
+    text-align: center;
+}
+
+::-webkit-scrollbar {
+    background-color: var(--black-color);
+    width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 12px;
+}
+
+.Card-Area::-webkit-scrollbar {
+    height: 2px;
+}
