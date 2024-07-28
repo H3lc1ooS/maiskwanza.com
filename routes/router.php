@@ -35,10 +35,14 @@ $router = [
         // "/noticia&n={$id}" => fn () => load("NewsController", "show"),
         "/admin/home" => fn () => load("AdminController", "index"),
         "/admin/create/noticia" => fn () => load("AdminController", "createNoticia"),
-        "/admin/create/categoria" => fn () => load("AdminController", "createCategorias"),
+        "/admin/create/categoria" => fn () => load("AdminController", "createCategoria"),
+        "/admin/noticias" => fn () => load("AdminController", "showNoticias"),
+        "/admin/categorias" => fn () => load("AdminController", "showCategorias"),
+        "/admin/subscritos" => fn () => load("AdminController", "showUtilizadores"),
     ],
 
     "POST" => [
         "/contact" => fn () => load("ContactController", "store"),
+        "/admin/noticias" => fn () => load("NewsController", "store"),
     ],
 ];

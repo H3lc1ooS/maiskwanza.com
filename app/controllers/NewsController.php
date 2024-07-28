@@ -12,6 +12,7 @@ class NewsController
 
     public function store()
     {
+        return dump($_POST);
     }
 
     public function update()

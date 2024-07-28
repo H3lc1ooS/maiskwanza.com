@@ -82,30 +82,21 @@
         }
     </script>
 
-    <script src="../assets/js/foto.js"></script>
+    <script src="/assets/js/foto.js"></script>
+
+    <script src="https://cdn.tiny.cloud/1/crrxb8x61v26y9264z0x349do637jr7e9h7v7zt2hdy1khz0/tinymce/7/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+            selector: 'textarea',
+            menubar: false,
+            plugins: 'anchor autolink charmap codesample emoticons image link lists media searchreplace table visualblocks wordcount checklist mediaembed casechange export formatpainter pageembed linkchecker a11ychecker tinymcespellchecker permanentpen powerpaste advtable advcode editimage advtemplate ai mentions tinycomments tableofcontents footnotes mergetags autocorrect typography inlinecss markdown',
+            toolbar: 'undo redo | blocks fontfamily fontsize | bold italic underline | link image media table | align lineheight | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
+            tinycomments_mode: 'embedded',
+            tinycomments_author: 'Author name',
+            ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
+        });
+    </script>
 </body>
-
-<script>
-    tinymce.init({
-        selector: '#editorTextarea',
-        plugins: 'advlist link lists',
-        toolbar: 'undo redo | blocks  fontsize | bold italic underline | link image media table mergetags | addcomment showcomments | spellcheckdialog a11ycheck typography | align | checklist numlist bullist indent outdent | emoticons charmap | removeformat',
-        tinycomments_mode: 'embedded',
-        tinycomments_author: 'Author name',
-        menubar: false,
-        entity_encoding: 'row',
-        mergetags_list: [{
-                value: 'First.Name',
-                title: 'First Name'
-            },
-            {
-                value: 'Email',
-                title: 'Email'
-            },
-        ],
-        ai_request: (request, respondWith) => respondWith.string(() => Promise.reject("See docs to implement AI Assistant")),
-    });
-</script>
-
 
 </html>

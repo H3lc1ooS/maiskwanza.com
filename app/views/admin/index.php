@@ -11,10 +11,18 @@
             <h2>Publicar Notícia</h2>
         </a>
     </section>
+
     <section class="action-card">
-        <ion-icon name="newspaper"></ion-icon>
+        <ion-icon name="bookmarks-sharp"></ion-icon>
         <a href="/admin/create/categoria" class="stat-description">
             <h2>Criar Categoria</h2>
+        </a>
+    </section>
+
+    <section class="action-card">
+        <ion-icon name="people-sharp"></ion-icon>
+        <a href="/admin/subscritos" class="stat-description">
+            <h2>Utilizadores</h2>
         </a>
     </section>
 </section>
