@@ -10,6 +10,7 @@ Descriçã: WebSite para o podcast +Kwanza de Nuno Baio e Vaneza Von-Hoff.
     - composer require google/apiclient
     - composer require symfony/var-dumper
     - composer require league/plates
+    - composer require vlucas/phpdotenv
 
 * Alterar o nome do ficheiro env-example.php para env.php
 

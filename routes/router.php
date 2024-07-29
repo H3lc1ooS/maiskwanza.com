@@ -1,7 +1,5 @@
 <?php
 
-require "../env.php";
-
 function load(string $controller, string $action)
 {
     try {

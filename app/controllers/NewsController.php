@@ -2,10 +2,14 @@
 
 namespace app\controllers;
 
+use app\database\models\Noticia;
+
 class NewsController
 {
     public function show()
     {
+        $noticia = new Noticia;
+        $noticia->fetch();
         return Controller::view('/news/show');
 
     }

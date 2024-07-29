@@ -7,6 +7,7 @@
     "require": {
         "google/apiclient": "^2.17",
         "symfony/var-dumper": "^7.1",
-        "league/plates": "^3.5"
+        "league/plates": "^3.5",
+        "vlucas/phpdotenv": "^5.6"
     }
 }

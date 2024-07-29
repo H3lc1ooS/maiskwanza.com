@@ -10,13 +10,13 @@ class PodcastController
 
     public function __construct()
     {
-        $apiKey = '';
+        $apiKey = $_ENV['YOUTUBE_KEY'];
         $this->youtubeService = new YouTubeService($apiKey);
     }
 
     public function index()
     {
-        $playlistId = "PLyE584xF0zBqOmEbe3DWzitbmbaFakmoW";
+        $playlistId = $_ENV['PLAYLISTID'];
         $videos = $this->getVideosFromPlaylist($playlistId);
 
         return Controller::view('home', ['videos' => $videos]);
@@ -24,7 +24,7 @@ class PodcastController
 
     public function show()
     {
-        $playlistId = "PLyE584xF0zBqOmEbe3DWzitbmbaFakmoW";
+        $playlistId = $_ENV['PLAYLISTID'];
         $videos = $this->getVideosFromPlaylist($playlistId);
         $videosStat = $this->getVideoStatistics($videos, $playlistId);
 
